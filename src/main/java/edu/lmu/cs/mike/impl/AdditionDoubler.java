@@ -12,5 +12,11 @@ public class AdditionDoubler implements IntegerDoubler {
   public long doDouble_qh(int i) {
     return i + i;
   }
+  
+  class Person{
+    protected String sayHello(){
+      return "hi";
+    }
+  }
 }
 
