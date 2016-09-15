@@ -20,6 +20,10 @@ public class AdditionDoubler implements IntegerDoubler {
   public long doDouble_2(int i) {
     return i + i;
   }
+
+  public long doDouble_3(int i) {
+    return i + i;
+  }
   
   class Person{
     protected String sayHello(){
